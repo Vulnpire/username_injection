@@ -2,8 +2,7 @@ import sys
 import requests
 import os.path
 
-# target url, change as needed
-url = "http://brokenauthentication.hackthebox.eu/username_injection.php"
+url = "127.0.0.1"
 
 # fake headers to present ourself as Chromium browser, change if needed
 headers = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36"}
